@@ -1,0 +1,89 @@
+.dashboardContainer {
+  padding: 2rem;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.subheading {
+  color: #7f8c8d;
+  margin-top: 0.5rem;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.cardTitle {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.cardValue {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.blueCard { background-color: #3498db; }
+.greenCard { background-color: #2ecc71; }
+.yellowCard { background-color: #f1c40f; }
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.queueContainer {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+.queueList {
+  list-style: none;
+  padding: 0;
+}
+
+.queueItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ecf0f1;
+  padding: 0.75rem 0;
+  font-size: 0.95rem;
+}
